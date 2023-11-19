@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=82329bce_002Debd6_002D4ee2_002Daf18_002Dd0744b20499d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Has_PhoneNumber_SameDigitAtLeast4Times_Test" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::5A2F582F-5FB5-42BF-862A-94CAC8CA5048::net7.0::CodingExerciseTests.UnitTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b1b29f1e_002D3c87_002D45cf_002D9d68_002Dccb91cf2d910/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Has_PhoneNumber_SameDigitAtLeast4Times_Test #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::5A2F582F-5FB5-42BF-862A-94CAC8CA5048::net7.0::CodingExerciseTests.UnitTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
