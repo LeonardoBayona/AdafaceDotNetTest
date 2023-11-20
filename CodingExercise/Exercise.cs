@@ -347,9 +347,9 @@ namespace CodingExerciseLogic
             PhoneNumbersLikedUtils utils = new();
             bool[] likedFlags = utils.ArePhoneNumbersLiked(args);
 
-            for (int i = 0; i < likedFlags.Length; i++)
+            foreach (bool b in likedFlags)
             {
-                Console.WriteLine(likedFlags[i] ? "Y" : "N");
+                Console.WriteLine(b ? "Y" : "N");
             }
         }
 

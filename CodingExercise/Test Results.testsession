@@ -1,0 +1,82 @@
+CodingExercise (73 tests) Success
+  CodingExerciseTests (73 tests) Success
+    UnitTests (73 tests) Success
+      Has_PhoneNumber_SameDigitAtLeast3TimesContiguous_Test (28 tests) Success
+        Has_PhoneNumber_SameDigitAtLeast3TimesContiguous_Test(phone: "1111111111", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast3TimesContiguous_Test(phone: "1111111112", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast3TimesContiguous_Test(phone: "1111111123", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast3TimesContiguous_Test(phone: "1111111234", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast3TimesContiguous_Test(phone: "1111112345", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast3TimesContiguous_Test(phone: "1111122222", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast3TimesContiguous_Test(phone: "1111133445", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast3TimesContiguous_Test(phone: "1111233334", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast3TimesContiguous_Test(phone: "1111234567", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast3TimesContiguous_Test(phone: "1112223444", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast3TimesContiguous_Test(phone: "1112334558", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast3TimesContiguous_Test(phone: "1123334567", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast3TimesContiguous_Test(phone: "1123345777", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast3TimesContiguous_Test(phone: "1123445677", expectedResponse: False) Success
+        Has_PhoneNumber_SameDigitAtLeast3TimesContiguous_Test(phone: "1222222221", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast3TimesContiguous_Test(phone: "1222222224", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast3TimesContiguous_Test(phone: "1222222234", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast3TimesContiguous_Test(phone: "1222222345", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast3TimesContiguous_Test(phone: "1222223456", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast3TimesContiguous_Test(phone: "1222234444", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast3TimesContiguous_Test(phone: "1234444567", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast3TimesContiguous_Test(phone: "1234455555", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast3TimesContiguous_Test(phone: "1234555555", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast3TimesContiguous_Test(phone: "1234567777", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast3TimesContiguous_Test(phone: "1234567890", expectedResponse: False) Success
+        Has_PhoneNumber_SameDigitAtLeast3TimesContiguous_Test(phone: "1235555555", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast3TimesContiguous_Test(phone: "1255555555", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast3TimesContiguous_Test(phone: "1555555555", expectedResponse: True) Success
+      Has_PhoneNumber_SameDigitAtLeast4TimesAtAnyPosition_Test (25 tests) Success
+        Has_PhoneNumber_SameDigitAtLeast4TimesAtAnyPosition_Test(phone: "0010004000", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast4TimesAtAnyPosition_Test(phone: "0010004500", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast4TimesAtAnyPosition_Test(phone: "0012004500", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast4TimesAtAnyPosition_Test(phone: "0012304500", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast4TimesAtAnyPosition_Test(phone: "0012345600", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast4TimesAtAnyPosition_Test(phone: "0199995678", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast4TimesAtAnyPosition_Test(phone: "0199999567", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast4TimesAtAnyPosition_Test(phone: "0199999956", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast4TimesAtAnyPosition_Test(phone: "0199999995", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast4TimesAtAnyPosition_Test(phone: "0999999995", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast4TimesAtAnyPosition_Test(phone: "1000000000", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast4TimesAtAnyPosition_Test(phone: "1111111111", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast4TimesAtAnyPosition_Test(phone: "1213243546", expectedResponse: False) Success
+        Has_PhoneNumber_SameDigitAtLeast4TimesAtAnyPosition_Test(phone: "1234567890", expectedResponse: False) Success
+        Has_PhoneNumber_SameDigitAtLeast4TimesAtAnyPosition_Test(phone: "2213143544", expectedResponse: False) Success
+        Has_PhoneNumber_SameDigitAtLeast4TimesAtAnyPosition_Test(phone: "4142434544", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast4TimesAtAnyPosition_Test(phone: "4142434546", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast4TimesAtAnyPosition_Test(phone: "4142444544", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast4TimesAtAnyPosition_Test(phone: "4442444444", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast4TimesAtAnyPosition_Test(phone: "4442444544", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast4TimesAtAnyPosition_Test(phone: "4545454545", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast4TimesAtAnyPosition_Test(phone: "4564564564", expectedResponse: True) Success
+        Has_PhoneNumber_SameDigitAtLeast4TimesAtAnyPosition_Test(phone: "4564564567", expectedResponse: False) Success
+        Has_PhoneNumber_SameDigitAtLeast4TimesAtAnyPosition_Test(phone: "8884999567", expectedResponse: False) Success
+        Has_PhoneNumber_SameDigitAtLeast4TimesAtAnyPosition_Test(phone: "9999999995", expectedResponse: True) Success
+      PhoneNumber_IsLiked_E2ETest (4 tests) Success
+        PhoneNumber_IsLiked_E2ETest(phone: "1112324252", hasSameDigitAtLeast4TimesAtAnyPosition: True, hasSameDigitAtLeast3TimesContiguous: True, expectedResp... Success
+        PhoneNumber_IsLiked_E2ETest(phone: "1112324256", hasSameDigitAtLeast4TimesAtAnyPosition: False, hasSameDigitAtLeast3TimesContiguous: True, expectedRes... Success
+        PhoneNumber_IsLiked_E2ETest(phone: "1123242526", hasSameDigitAtLeast4TimesAtAnyPosition: True, hasSameDigitAtLeast3TimesContiguous: False, expectedRes... Success
+        PhoneNumber_IsLiked_E2ETest(phone: "1234567890", hasSameDigitAtLeast4TimesAtAnyPosition: False, hasSameDigitAtLeast3TimesContiguous: False, expectedRe... Success
+      PhoneNumber_IsLiked_UnitTest (4 tests) Success
+        PhoneNumber_IsLiked_UnitTest(phone: "1112324252", hasSameDigitAtLeast4TimesAtAnyPosition: True, hasSameDigitAtLeast3TimesContiguous: True, expectedRes... Success
+        PhoneNumber_IsLiked_UnitTest(phone: "1112324256", hasSameDigitAtLeast4TimesAtAnyPosition: False, hasSameDigitAtLeast3TimesContiguous: True, expectedRe... Success
+        PhoneNumber_IsLiked_UnitTest(phone: "1123242526", hasSameDigitAtLeast4TimesAtAnyPosition: True, hasSameDigitAtLeast3TimesContiguous: False, expectedRe... Success
+        PhoneNumber_IsLiked_UnitTest(phone: "1234567890", hasSameDigitAtLeast4TimesAtAnyPosition: False, hasSameDigitAtLeast3TimesContiguous: False, expectedR... Success
+      PhoneNumbers_AreLiked_E2ETest (6 tests) Success
+        PhoneNumbers_AreLiked_E2ETest(phones: ["1112324252"], expectedResponse: [True]) Success
+        PhoneNumbers_AreLiked_E2ETest(phones: ["1234567890", "1112324252"], expectedResponse: [False, True]) Success
+        PhoneNumbers_AreLiked_E2ETest(phones: ["1234567890", "1123456788", "1112324256", "1123242526"], expectedResponse: [False, False, True, True]) Success
+        PhoneNumbers_AreLiked_E2ETest(phones: ["1234567890", "1123456788", "1112324256"], expectedResponse: [False, False, True]) Success
+        PhoneNumbers_AreLiked_E2ETest(phones: ["1234567890", "1123456788", "1122456788", "1112324256", "1123242526"], expectedResponse: [False, False, False, ... Success
+        PhoneNumbers_AreLiked_E2ETest(phones: ["1234567890"], expectedResponse: [False]) Success
+      PhoneNumbers_AreLiked_UnitTest (6 tests) Success
+        PhoneNumbers_AreLiked_UnitTest(phones: ["1112324252"], expectedResponse: [True]) Success
+        PhoneNumbers_AreLiked_UnitTest(phones: ["1234567890", "1112324252"], expectedResponse: [False, True]) Success
+        PhoneNumbers_AreLiked_UnitTest(phones: ["1234567890", "1123456788", "1112324256", "1123242526"], expectedResponse: [False, False, True, True]) Success
+        PhoneNumbers_AreLiked_UnitTest(phones: ["1234567890", "1123456788", "1112324256"], expectedResponse: [False, False, True]) Success
+        PhoneNumbers_AreLiked_UnitTest(phones: ["1234567890", "1123456788", "1122456788", "1112324256", "1123242526"], expectedResponse: [False, False, False,... Success
+        PhoneNumbers_AreLiked_UnitTest(phones: ["1234567890"], expectedResponse: [False]) Success
